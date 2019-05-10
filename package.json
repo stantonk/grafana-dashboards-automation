@@ -1,0 +1,16 @@
+{
+  "name": "grafana-dashboards",
+  "version": "1.0.0",
+  "description": "code to generate grafana dashboards",
+  "main": "mysql-clusters-disk-consumption.js",
+  "dependencies": {
+    "aws-sdk": "2.343.0",
+    "grafana-dash-gen": "2.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

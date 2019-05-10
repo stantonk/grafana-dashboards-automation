@@ -1,0 +1,499 @@
+[
+  {
+    "Key": {
+      "Hostname": "backup-mysql-maindb-useast1d-01",
+      "Port": 3306
+    },
+    "InstanceAlias": "",
+    "Uptime": 40321,
+    "ServerID": 2887374995,
+    "ServerUUID": "",
+    "Version": "5.5.55-38.8-log",
+    "VersionComment": "Percona Server (GPL), Release 38.8, Revision 11f5bbd",
+    "FlavorName": "Percona",
+    "ReadOnly": true,
+    "Binlog_format": "ROW",
+    "BinlogRowImage": "",
+    "LogBinEnabled": true,
+    "LogSlaveUpdatesEnabled": true,
+    "SelfBinlogCoordinates": {
+      "LogFile": "bin-log.000587",
+      "LogPos": 881480739,
+      "Type": 0
+    },
+    "MasterKey": {
+      "Hostname": "prod-mysql-maindb-useast1a-01",
+      "Port": 3306
+    },
+    "IsDetachedMaster": false,
+    "Slave_SQL_Running": true,
+    "Slave_IO_Running": true,
+    "HasReplicationFilters": false,
+    "GTIDMode": "",
+    "SupportsOracleGTID": false,
+    "UsingOracleGTID": false,
+    "UsingMariaDBGTID": false,
+    "UsingPseudoGTID": true,
+    "ReadBinlogCoordinates": {
+      "LogFile": "bin-log.003661",
+      "LogPos": 201923213,
+      "Type": 0
+    },
+    "ExecBinlogCoordinates": {
+      "LogFile": "bin-log.003660",
+      "LogPos": 663154386,
+      "Type": 0
+    },
+    "IsDetached": false,
+    "RelaylogCoordinates": {
+      "LogFile": "relay-log.009041",
+      "LogPos": 663154530,
+      "Type": 1
+    },
+    "LastSQLError": "\"\"",
+    "LastIOError": "\"\"",
+    "SecondsBehindMaster": {
+      "Int64": 7255,
+      "Valid": true
+    },
+    "SQLDelay": 0,
+    "ExecutedGtidSet": "",
+    "GtidPurged": "",
+    "SlaveLagSeconds": {
+      "Int64": 7255,
+      "Valid": true
+    },
+    "SlaveHosts": [],
+    "ClusterName": "prod-mysql-maindb-useast1a-01:3306",
+    "SuggestedClusterAlias": "mysql-maindb",
+    "DataCenter": "",
+    "PhysicalEnvironment": "",
+    "ReplicationDepth": 1,
+    "IsCoMaster": false,
+    "HasReplicationCredentials": true,
+    "ReplicationCredentialsAvailable": false,
+    "SemiSyncEnforced": false,
+    "SemiSyncMasterEnabled": false,
+    "SemiSyncReplicaEnabled": false,
+    "LastSeenTimestamp": "2018-10-25 20:12:16",
+    "IsLastCheckValid": true,
+    "IsUpToDate": true,
+    "IsRecentlyChecked": true,
+    "SecondsSinceLastSeen": {
+      "Int64": 3,
+      "Valid": true
+    },
+    "CountMySQLSnapshots": 0,
+    "IsCandidate": false,
+    "PromotionRule": "neutral",
+    "IsDowntimed": false,
+    "DowntimeReason": "",
+    "DowntimeOwner": "",
+    "DowntimeEndTimestamp": "",
+    "ElapsedDowntime": 0,
+    "UnresolvedHostname": "",
+    "AllowTLS": false,
+    "LastDiscoveryLatency": 28781445
+  },
+  {
+    "Key": {
+      "Hostname": "prod-mysql-maindb-useast1a-01",
+      "Port": 3306
+    },
+    "InstanceAlias": "",
+    "Uptime": 18332106,
+    "ServerID": 2887373764,
+    "ServerUUID": "",
+    "Version": "5.5.55-38.8-log",
+    "VersionComment": "Percona Server (GPL), Release 38.8, Revision 11f5bbd",
+    "FlavorName": "Percona",
+    "ReadOnly": false,
+    "Binlog_format": "MIXED",
+    "BinlogRowImage": "",
+    "LogBinEnabled": true,
+    "LogSlaveUpdatesEnabled": true,
+    "SelfBinlogCoordinates": {
+      "LogFile": "bin-log.003661",
+      "LogPos": 201924980,
+      "Type": 0
+    },
+    "MasterKey": {
+      "Hostname": "",
+      "Port": 0
+    },
+    "IsDetachedMaster": false,
+    "Slave_SQL_Running": false,
+    "Slave_IO_Running": false,
+    "HasReplicationFilters": false,
+    "GTIDMode": "",
+    "SupportsOracleGTID": false,
+    "UsingOracleGTID": false,
+    "UsingMariaDBGTID": false,
+    "UsingPseudoGTID": true,
+    "ReadBinlogCoordinates": {
+      "LogFile": "",
+      "LogPos": 0,
+      "Type": 0
+    },
+    "ExecBinlogCoordinates": {
+      "LogFile": "",
+      "LogPos": 0,
+      "Type": 0
+    },
+    "IsDetached": false,
+    "RelaylogCoordinates": {
+      "LogFile": "",
+      "LogPos": 0,
+      "Type": 1
+    },
+    "LastSQLError": "",
+    "LastIOError": "",
+    "SecondsBehindMaster": {
+      "Int64": 0,
+      "Valid": false
+    },
+    "SQLDelay": 0,
+    "ExecutedGtidSet": "",
+    "GtidPurged": "",
+    "SlaveLagSeconds": {
+      "Int64": 0,
+      "Valid": false
+    },
+    "SlaveHosts": [
+      {
+        "Hostname": "backup-mysql-maindb-useast1d-01",
+        "Port": 3306
+      },
+      {
+        "Hostname": "prod-mysql-maindb-useast1b-01",
+        "Port": 3306
+      },
+      {
+        "Hostname": "stage-mysql-maindb-useast1a-01",
+        "Port": 3306
+      },
+      {
+        "Hostname": "prod-mysql-maindb-useast1d-01",
+        "Port": 3306
+      }
+    ],
+    "ClusterName": "prod-mysql-maindb-useast1a-01:3306",
+    "SuggestedClusterAlias": "mysql-maindb",
+    "DataCenter": "",
+    "PhysicalEnvironment": "",
+    "ReplicationDepth": 0,
+    "IsCoMaster": false,
+    "HasReplicationCredentials": false,
+    "ReplicationCredentialsAvailable": false,
+    "SemiSyncEnforced": false,
+    "SemiSyncMasterEnabled": false,
+    "SemiSyncReplicaEnabled": false,
+    "LastSeenTimestamp": "2018-10-25 20:12:16",
+    "IsLastCheckValid": true,
+    "IsUpToDate": true,
+    "IsRecentlyChecked": true,
+    "SecondsSinceLastSeen": {
+      "Int64": 3,
+      "Valid": true
+    },
+    "CountMySQLSnapshots": 0,
+    "IsCandidate": false,
+    "PromotionRule": "neutral",
+    "IsDowntimed": false,
+    "DowntimeReason": "",
+    "DowntimeOwner": "",
+    "DowntimeEndTimestamp": "",
+    "ElapsedDowntime": 0,
+    "UnresolvedHostname": "",
+    "AllowTLS": false,
+    "LastDiscoveryLatency": 39055050
+  },
+  {
+    "Key": {
+      "Hostname": "prod-mysql-maindb-useast1b-01",
+      "Port": 3306
+    },
+    "InstanceAlias": "",
+    "Uptime": 135468,
+    "ServerID": 2887373957,
+    "ServerUUID": "",
+    "Version": "5.5.61-38.13-log",
+    "VersionComment": "Percona Server (GPL), Release 38.13, Revision 812705b",
+    "FlavorName": "Percona",
+    "ReadOnly": true,
+    "Binlog_format": "MIXED",
+    "BinlogRowImage": "",
+    "LogBinEnabled": true,
+    "LogSlaveUpdatesEnabled": true,
+    "SelfBinlogCoordinates": {
+      "LogFile": "bin-log.002863",
+      "LogPos": 751721046,
+      "Type": 0
+    },
+    "MasterKey": {
+      "Hostname": "prod-mysql-maindb-useast1a-01",
+      "Port": 3306
+    },
+    "IsDetachedMaster": false,
+    "Slave_SQL_Running": true,
+    "Slave_IO_Running": true,
+    "HasReplicationFilters": false,
+    "GTIDMode": "",
+    "SupportsOracleGTID": false,
+    "UsingOracleGTID": false,
+    "UsingMariaDBGTID": false,
+    "UsingPseudoGTID": true,
+    "ReadBinlogCoordinates": {
+      "LogFile": "bin-log.003661",
+      "LogPos": 201924980,
+      "Type": 0
+    },
+    "ExecBinlogCoordinates": {
+      "LogFile": "bin-log.003661",
+      "LogPos": 201924980,
+      "Type": 0
+    },
+    "IsDetached": false,
+    "RelaylogCoordinates": {
+      "LogFile": "relay-log.008919",
+      "LogPos": 201925124,
+      "Type": 1
+    },
+    "LastSQLError": "\"\"",
+    "LastIOError": "\"\"",
+    "SecondsBehindMaster": {
+      "Int64": 0,
+      "Valid": true
+    },
+    "SQLDelay": 0,
+    "ExecutedGtidSet": "",
+    "GtidPurged": "",
+    "SlaveLagSeconds": {
+      "Int64": 0,
+      "Valid": true
+    },
+    "SlaveHosts": [],
+    "ClusterName": "prod-mysql-maindb-useast1a-01:3306",
+    "SuggestedClusterAlias": "mysql-maindb",
+    "DataCenter": "",
+    "PhysicalEnvironment": "",
+    "ReplicationDepth": 1,
+    "IsCoMaster": false,
+    "HasReplicationCredentials": true,
+    "ReplicationCredentialsAvailable": false,
+    "SemiSyncEnforced": false,
+    "SemiSyncMasterEnabled": false,
+    "SemiSyncReplicaEnabled": false,
+    "LastSeenTimestamp": "2018-10-25 20:12:16",
+    "IsLastCheckValid": true,
+    "IsUpToDate": true,
+    "IsRecentlyChecked": true,
+    "SecondsSinceLastSeen": {
+      "Int64": 3,
+      "Valid": true
+    },
+    "CountMySQLSnapshots": 0,
+    "IsCandidate": false,
+    "PromotionRule": "neutral",
+    "IsDowntimed": false,
+    "DowntimeReason": "",
+    "DowntimeOwner": "",
+    "DowntimeEndTimestamp": "",
+    "ElapsedDowntime": 0,
+    "UnresolvedHostname": "",
+    "AllowTLS": false,
+    "LastDiscoveryLatency": 21841126
+  },
+  {
+    "Key": {
+      "Hostname": "prod-mysql-maindb-useast1d-01",
+      "Port": 3306
+    },
+    "InstanceAlias": "",
+    "Uptime": 18336060,
+    "ServerID": 2887375792,
+    "ServerUUID": "",
+    "Version": "5.5.55-38.8-log",
+    "VersionComment": "Percona Server (GPL), Release 38.8, Revision 11f5bbd",
+    "FlavorName": "Percona",
+    "ReadOnly": true,
+    "Binlog_format": "MIXED",
+    "BinlogRowImage": "",
+    "LogBinEnabled": true,
+    "LogSlaveUpdatesEnabled": true,
+    "SelfBinlogCoordinates": {
+      "LogFile": "bin-log.001504",
+      "LogPos": 812408324,
+      "Type": 0
+    },
+    "MasterKey": {
+      "Hostname": "prod-mysql-maindb-useast1a-01",
+      "Port": 3306
+    },
+    "IsDetachedMaster": false,
+    "Slave_SQL_Running": true,
+    "Slave_IO_Running": true,
+    "HasReplicationFilters": false,
+    "GTIDMode": "",
+    "SupportsOracleGTID": false,
+    "UsingOracleGTID": false,
+    "UsingMariaDBGTID": false,
+    "UsingPseudoGTID": true,
+    "ReadBinlogCoordinates": {
+      "LogFile": "bin-log.003661",
+      "LogPos": 201924980,
+      "Type": 0
+    },
+    "ExecBinlogCoordinates": {
+      "LogFile": "bin-log.003661",
+      "LogPos": 201924980,
+      "Type": 0
+    },
+    "IsDetached": false,
+    "RelaylogCoordinates": {
+      "LogFile": "relay-log.008899",
+      "LogPos": 201925124,
+      "Type": 1
+    },
+    "LastSQLError": "\"\"",
+    "LastIOError": "\"\"",
+    "SecondsBehindMaster": {
+      "Int64": 0,
+      "Valid": true
+    },
+    "SQLDelay": 0,
+    "ExecutedGtidSet": "",
+    "GtidPurged": "",
+    "SlaveLagSeconds": {
+      "Int64": 0,
+      "Valid": true
+    },
+    "SlaveHosts": [],
+    "ClusterName": "prod-mysql-maindb-useast1a-01:3306",
+    "SuggestedClusterAlias": "mysql-maindb",
+    "DataCenter": "",
+    "PhysicalEnvironment": "",
+    "ReplicationDepth": 1,
+    "IsCoMaster": false,
+    "HasReplicationCredentials": true,
+    "ReplicationCredentialsAvailable": false,
+    "SemiSyncEnforced": false,
+    "SemiSyncMasterEnabled": false,
+    "SemiSyncReplicaEnabled": false,
+    "LastSeenTimestamp": "2018-10-25 20:12:16",
+    "IsLastCheckValid": true,
+    "IsUpToDate": true,
+    "IsRecentlyChecked": true,
+    "SecondsSinceLastSeen": {
+      "Int64": 3,
+      "Valid": true
+    },
+    "CountMySQLSnapshots": 0,
+    "IsCandidate": false,
+    "PromotionRule": "neutral",
+    "IsDowntimed": false,
+    "DowntimeReason": "",
+    "DowntimeOwner": "",
+    "DowntimeEndTimestamp": "",
+    "ElapsedDowntime": 0,
+    "UnresolvedHostname": "",
+    "AllowTLS": false,
+    "LastDiscoveryLatency": 20196451
+  },
+  {
+    "Key": {
+      "Hostname": "stage-mysql-maindb-useast1a-01",
+      "Port": 3306
+    },
+    "InstanceAlias": "",
+    "Uptime": 17204936,
+    "ServerID": 2887373130,
+    "ServerUUID": "",
+    "Version": "5.5.57-38.9-log",
+    "VersionComment": "Percona Server (GPL), Release 38.9, Revision fc6d4f87a88",
+    "FlavorName": "Percona",
+    "ReadOnly": true,
+    "Binlog_format": "MIXED",
+    "BinlogRowImage": "",
+    "LogBinEnabled": true,
+    "LogSlaveUpdatesEnabled": true,
+    "SelfBinlogCoordinates": {
+      "LogFile": "bin-log.001150",
+      "LogPos": 773373511,
+      "Type": 0
+    },
+    "MasterKey": {
+      "Hostname": "prod-mysql-maindb-useast1a-01",
+      "Port": 3306
+    },
+    "IsDetachedMaster": false,
+    "Slave_SQL_Running": true,
+    "Slave_IO_Running": true,
+    "HasReplicationFilters": false,
+    "GTIDMode": "",
+    "SupportsOracleGTID": false,
+    "UsingOracleGTID": false,
+    "UsingMariaDBGTID": false,
+    "UsingPseudoGTID": true,
+    "ReadBinlogCoordinates": {
+      "LogFile": "bin-log.003661",
+      "LogPos": 201924980,
+      "Type": 0
+    },
+    "ExecBinlogCoordinates": {
+      "LogFile": "bin-log.003661",
+      "LogPos": 201924980,
+      "Type": 0
+    },
+    "IsDetached": false,
+    "RelaylogCoordinates": {
+      "LogFile": "relay-log.003011",
+      "LogPos": 201925124,
+      "Type": 1
+    },
+    "LastSQLError": "\"\"",
+    "LastIOError": "\"\"",
+    "SecondsBehindMaster": {
+      "Int64": 0,
+      "Valid": true
+    },
+    "SQLDelay": 0,
+    "ExecutedGtidSet": "",
+    "GtidPurged": "",
+    "SlaveLagSeconds": {
+      "Int64": 0,
+      "Valid": true
+    },
+    "SlaveHosts": [],
+    "ClusterName": "prod-mysql-maindb-useast1a-01:3306",
+    "SuggestedClusterAlias": "mysql-maindb",
+    "DataCenter": "",
+    "PhysicalEnvironment": "",
+    "ReplicationDepth": 1,
+    "IsCoMaster": false,
+    "HasReplicationCredentials": true,
+    "ReplicationCredentialsAvailable": false,
+    "SemiSyncEnforced": false,
+    "SemiSyncMasterEnabled": false,
+    "SemiSyncReplicaEnabled": false,
+    "LastSeenTimestamp": "2018-10-25 20:12:16",
+    "IsLastCheckValid": true,
+    "IsUpToDate": true,
+    "IsRecentlyChecked": true,
+    "SecondsSinceLastSeen": {
+      "Int64": 3,
+      "Valid": true
+    },
+    "CountMySQLSnapshots": 0,
+    "IsCandidate": false,
+    "PromotionRule": "neutral",
+    "IsDowntimed": false,
+    "DowntimeReason": "",
+    "DowntimeOwner": "",
+    "DowntimeEndTimestamp": "",
+    "ElapsedDowntime": 0,
+    "UnresolvedHostname": "",
+    "AllowTLS": false,
+    "LastDiscoveryLatency": 45717542
+  }
+]
