@@ -4,7 +4,7 @@
   "description": "code to generate grafana dashboards",
   "main": "mysql-clusters-disk-consumption.js",
   "dependencies": {
-    "aws-sdk": "2.343.0",
+    "aws-sdk": "2.814.0",
     "grafana-dash-gen": "2.5.0"
   },
   "devDependencies": {},
